@@ -1,0 +1,32 @@
+.horizontal {
+    display: flex;
+}
+
+
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 4rem 0;
+}
+
+
+
+.news {
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: var(--color-red);
+    font-style: normal
+}
+
+
+.abonnez {
+    padding-bottom: 4rem;
+}
+
+.mr {
+    margin-right: 2rem;
+}

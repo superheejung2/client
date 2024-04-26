@@ -1,0 +1,39 @@
+.footer {
+    /* margin-top: 6rem; */
+    width: 100%;
+    background-color: #000;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.nav {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navList {
+    display: flex;
+}
+
+.ecole {
+    color: #fff;
+    padding-top: 8rem;
+}
+
+.plan,
+.white {
+    color: #fff;
+}
+
+.plan {
+    font-size: 2rem;
+}
+
+.flex {
+    display: flex;
+}

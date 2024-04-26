@@ -1,0 +1,116 @@
+/*Mobile first */
+/*defaut */
+@media screen {
+
+
+    .container {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .title {
+        /* margin: auto; */
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        margin-left: 0rem;
+        text-transform: uppercase;
+        font-style: normal
+    }
+
+    .bg {
+        margin-top: 3rem;
+        height: 12rem;
+        background: rgb(255, 247, 173);
+        background: linear-gradient(90deg, rgba(255, 247, 173, 1) 17%, rgba(255, 169, 249, 1) 100%);
+        margin-left: 0rem;
+
+    }
+
+    .passion {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+
+
+    }
+
+    .moment {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #A41819;
+        margin-left: 0rem;
+
+    }
+
+    .box {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .boxTitle {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-self: center;
+    }
+
+    .title {
+        font-weight: 700;
+        display: flex;
+    }
+
+    .cours {
+        margin-top: 3rem;
+    }
+
+    .p1,
+    .p2 {
+        margin-left: 0rem;
+    }
+
+    .p2 {
+        display: none;
+    }
+
+    .button {
+        background-color: #A41819;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+}
+
+/* Mobile */
+@media (min-width: 576px) {
+    .container {
+        max-width: 85%;
+    }
+
+    .cours {
+        display: flex;
+        margin-top: 3rem;
+        align-items: start;
+    }
+
+    .p2 {
+        display: block;
+    }
+
+    .mr {
+        margin-right: 2rem;
+    }
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {}
+
+/* Desktop */
+@media screen and (min-width: 768px) {}
